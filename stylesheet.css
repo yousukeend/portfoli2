@@ -1,0 +1,161 @@
+body {
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1170px;
+　padding: 0 15px;
+　margin: 0 auto;
+}
+
+.top-wrapper {
+  width: 100%;
+  padding-top: 180px;
+  padding-bottom: 100px;
+  background-image: url(yosuke_re1.jpg);
+  color: #FF00BF;
+  background-size: cover;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  text-shadow: 1px 5px 5px #A4A4A4;
+}
+
+.top-wrapper p {
+  font-weight: bold;
+  color: #000000;
+  text-shadow: 1px 5px 5px #A4A4A4;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+.btn {
+  display: inline-block;
+  padding: 8px 24px;
+  color: white;
+  opacity: 0.7;
+  border-radius: 40px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 20px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn-wrapper i {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position:fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-logo {
+  width: 200px;
+  line-height: 65px;
+  float:left;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: inline-block;
+  transition: all 1.0s;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #2E2E2E;
+  /* text-alignをcenterに指定すっかな */
+  text-align: center;
+
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  letter-spacing: 5px;
+  color: white;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+  transition: all 1.0s;
+}
+
+.lesson:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: red;
+  font-weight: bold;
+}
+/* txt-contentsクラスのCSSを指定にしようかな */
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #b3aeb5;
+}
